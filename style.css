@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.container{
+min-height: 100vh;
+  width:100%;
+
+}
+body
+{
+
+  background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-size: cover;
+  position:relative;
+  z-index:1;
+  background-repeat: no-repeat;
+
+}
+
+body::after{
+
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background-color: #091339;
+  opacity:.7;
+  z-index:-1;
+
+
+}
+/* Nav section */
+
+nav.navbar{
+
+  position: absolute;
+  left:5%;
+  top:2%;
+  width:90%;
+    display:flex;
+    justify-content: space-between;  
+    align-items: center;
+  
+  }
+  img.logo{
+    width:150px;
+  }
+  .list{
+
+    display: flex;
+  }
+  
+  .list-item{
+  
+    color: rgba(226, 226, 9, 0.911);
+    list-style-type:none;
+    padding-right:40px;
+    padding-left:40px;
+    cursor:pointer;
+    
+  
+    
+  }
+  button.button-small{
+
+    border:none;
+    background-color:#f25758;
+    width:120px;
+    height: 50px;
+    color:rgba(255, 255, 255, 0.877);
+    font-size:large;
+    font-weight: bold;
+    cursor:pointer;
+    
+  }
+
+  /* Description Section */
+  
+
+  .hero{
+
+  
+  
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+   
+    
+  }
+  
+  .hero-heading{
+
+
+  width:60%;
+  margin-top:150px;
+ 
+    line-height:1.1;
+    text-align:center;
+    font-size:600%;
+    text-shadow: 3px 0 #ffc233; letter-spacing:2px; font-weight:bold;
+    color:#ffc233;
+   
+  
+  
+  }
+  
+  button.button-large{
+  
+    
+    border:none;
+   margin-top:50px;
+    background-color:#f25758;
+    width:300px;
+    height: 60px;
+    color:rgba(255, 255, 255, 0.877);
+    font-size:large;
+    font-weight: bold;
+    cursor:pointer;
+  
+  
+  }
+  img[alt="scroll-logo"]{
+  
+  margin-left:1200px;
+    width:150px;
+    cursor:pointer;
+    
+
+   
+  }
+
+
+  /* media queries for nav and description section */
+
+  @media only screen and (max-width:1385px){
+
+
+    img[alt="scroll-logo"]{
+  
+      margin-left:1000px;
+        
+
+       
+      }
+
+      .hero-heading{
+
+        width:70%;
+      }
+
+  }
+
+  @media only screen and (max-width:1195px){
+
+
+    img[alt="scroll-logo"]{
+  
+      margin-left:800px;
+        
+
+       
+      }
+
+      .hero-heading{
+
+        width:80%;
+      }
+
+  }
+
+
+  @media only screen and (max-width:1015px){
+
+
+    img[alt="scroll-logo"]{
+  
+      margin-left:600px;
+        
+
+       
+      }
+
+      .hero-heading{
+        font-size:500%;
+
+        
+      }
+
+  }
+
+
+  @media only screen and (min-width:880px){
+
+    div.menu{
+
+      display:none;
+    }
+  }
+
+  @media only screen and (max-width:880px){
+
+
+    img[alt="scroll-logo"]{
+  
+      margin-left:400px;
+        
+
+       
+      }
+
+      .hero-heading{
+        font-size:450%;
+        width:90%;
+
+        
+      }
+
+      button.button-small{
+
+        display:none;
+      }
+
+      div.menu{
+
+        display:block;
+        font-size:30px;
+        color:#f25758;
+        cursor:pointer;
+      }
+
+      button.button-large{
+
+        width:230px;
+      }
+
+
+      .list-item{
+
+        display:none;
+      }
+      img.logo{
+
+        width:120px;
+      }
+
+
+  }
+
+
+  @media only screen and (max-width:700px){
+
+
+    
+
+      .hero-heading{
+        font-size:400%;
+        width:90%;
+
+        
+      }
+
+
+  }
+
+  @media only screen and (max-width:575px){
+
+
+    img[alt="scroll-logo"]{
+      margin-top:100px;
+  
+      margin-left:200px;
+        
+
+       
+      }
+
+      .hero-heading{
+        font-size:350%;
+       
+        
+      }
+
+      button.button-large{
+
+        width:200px;
+      }
+
+    }
+
+
+    @media only screen and (max-width:500px){
+
+        .hero-heading{
+          font-size:300%;
+         
+          
+        }
+  
+        button.button-large{
+  
+          width:200px;
+        }
+
+        img[alt="scroll-logo"]{
+         width:120px;
+            
+    
+           
+          }
+  
+      }
+  
+  @media only screen and (max-width:450px){
+    .hero-heading{
+      font-size:250%;
+     
+      
+    }
+
+  }
