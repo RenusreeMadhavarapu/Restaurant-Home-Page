@@ -10,8 +10,10 @@
 
 
 
-![gitrestaurant2](https://user-images.githubusercontent.com/110158807/184312482-82587304-ed15-4d03-8920-385f6132445c.png)
+
+![gitfood3](https://user-images.githubusercontent.com/110158807/184343331-9f9dac47-89b7-4f3f-96dc-a2566490f31b.png)
 ### Learned Concepts
+
 - Margin and Padding in CSS
 - Position Selectors
 - Media Queries
