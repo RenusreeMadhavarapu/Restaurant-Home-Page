@@ -17,7 +17,7 @@
 - Media Queries
 
 ### Project Deploy Link
-[SEOHome](https://foodrestaurantlandingpage.netlify.app/)
+[RestaurantHome](https://foodrestaurantlandingpage.netlify.app/)
 
 ### Author
 [Renusree Madhavarapu](https://github.com/RenusreeMadhavarapu)
