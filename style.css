@@ -54,10 +54,11 @@ nav.navbar{
     display:flex;
     justify-content: space-between;  
     align-items: center;
+    margin-top:10px;
   
   }
-  img.logo{
-    width:150px;
+  img[alt="logo"]{
+    width:120px;
   }
   .list{
 
@@ -68,8 +69,7 @@ nav.navbar{
   
     color: rgba(226, 226, 9, 0.911);
     list-style-type:none;
-    padding-right:40px;
-    padding-left:40px;
+    margin-right:50px;
     cursor:pointer;
     
   
@@ -106,7 +106,7 @@ nav.navbar{
 
 
   width:60%;
-  margin-top:150px;
+  margin-top:130px;
  
     line-height:1.1;
     text-align:center;
@@ -281,6 +281,7 @@ nav.navbar{
 
     img[alt="scroll-logo"]{
       margin-top:100px;
+     
   
       margin-left:200px;
         
